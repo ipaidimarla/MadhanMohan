@@ -60,7 +60,8 @@ img {
 
 .main-nav a {
     font-size: .95em;
-    color: #3acec2;
+    /*color: #3acec2;*/
+    color: teal;
     text-transform: uppercase;
 }
 
@@ -73,6 +74,18 @@ img {
 .main-header {
     padding-top: .5em;
     padding-bottom: .5em;
+    text-align: center;
+}
+.head-image{
+    width:30px;
+    border: 1px solid #3a3a3a;
+    transition: all .5s ease-in-out;
+
+}
+.head-image:hover{
+    transform: scale(2) ;
+    margin-right: 10px;
+
 }
 
 .banner,
@@ -82,7 +95,8 @@ img {
 
 .banner {
     color: #fff;
-    background: #3acec2;
+    /*background: #3acec2;*/
+    background: teal;
     padding: 1.2em 0;
     margin-bottom: 30px;
 }
@@ -96,6 +110,9 @@ img {
     background: #d9e4ea;
     padding: 2em 0;
     margin-top: 30px;
+}
+.info{
+    text-align: center;
 }
 
 /* ---- Page Elements ---- */
@@ -155,6 +172,8 @@ img {
         display: table;
         clear: both;
     }
+
+
 
 }
 
