@@ -77,6 +77,8 @@ img {
     padding-top: .5em;
     padding-bottom: .5em;
     text-align: center;
+
+
 }
 .head-image{
     width:25px;
@@ -104,6 +106,7 @@ img {
     background: teal;
     padding: 1.2em 0;
     margin-bottom: 30px;
+
 }
 
 .col {
@@ -143,6 +146,17 @@ img {
 ==================================== */
 
 @media (min-width: 769px) {
+    body{
+        padding-top: 68px;
+    }
+
+    .main-header{
+        position: fixed;
+        background: #fff;
+        width: 100%;
+        box-shadow: 0 1px 4px rgba(0,0,0,0.5);
+        top:0;
+    }
 
     .container {
         width: 90%;
