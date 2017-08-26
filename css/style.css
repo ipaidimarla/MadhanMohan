@@ -83,11 +83,13 @@ img {
     border: 1px solid #3a3a3a;
     border-radius: 50%;
     transition: all .5s ease-in-out;
+    margin-bottom: -4px;
 
 }
 .head-image:hover{
     transform: scale(2) ;
     margin-right: 10px;
+
 
 }
 
