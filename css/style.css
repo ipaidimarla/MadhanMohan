@@ -232,9 +232,15 @@ img {
     }
 
     .cd-body{
-        width:80%;
+        width:70%;
         margin:0 auto;
         padding-top:3.5em;
+    }
+    .cd-body-email{
+        width:60%;
+        margin:0 auto;
+        padding-top:3.5em;
+
     }
 
     .main-header{
