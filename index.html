@@ -13,7 +13,7 @@
     <script src="app/app.js"></script>
 
 </head>
-<body ng-app="app">
+<body ng-app="app" ng-controller="mainAppCtrl">
 
 <header class="main-header">
     <div class="container clearfix">
@@ -23,14 +23,17 @@
         <img class="head-image" src="img/MadhanMohan.jpg" alt="Head Image">  Madhan Mohan
     </h1>
     <ul class="main-nav">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Education</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Experience</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="" ng-click="showHome()" >Home</a></li>
+        <li><a href="" ng-click="showEducation()">Education</a></li>
+        <li><a href="" ng-click="showSkills()">Skills</a></li>
+        <li><a href="" ng-click="showExperience()">Experience</a></li>
+        <li><a href="" ng-click="showContact()">Contact</a></li>
     </ul>
     </div>
 </header><!--/.main-header-->
+
+<div class="wrap">
+<div ng-if="bshowHome">
 
 <div class="banner">
     <img class="logo" src="img/Full-Stack.png" alt="Author Image">
@@ -73,6 +76,14 @@
 
 </div>
 
+</div>
+<contact-info ng-if="bshowContact"></contact-info>
+<education-info ng-if="bshowEducation"></education-info>
+<skills-info ng-if="bshowSkills"></skills-info>
+<experience-info ng-if="bshowExperience"></experience-info>
+
+
+</div>
 
 
 <footer class="main-footer">

@@ -104,7 +104,7 @@ img {
     color: #fff;
     /*background: #3acec2;*/
     background: teal;
-    padding: 1.2em 0;
+    padding: 2.1em 0;
     margin-bottom: 30px;
 
 }
@@ -112,6 +112,7 @@ img {
 .col {
     padding-right: 1em;
     padding-left: 1em;
+
 }
 
 .main-footer {
@@ -123,6 +124,10 @@ img {
     text-align: center;
 }
 
+.contact-header{
+    border-bottom: 2px solid #BCB7B6;
+
+}
 
 
 /* ---- Page Elements ---- */
@@ -140,6 +145,27 @@ img {
     padding:10px;
     border: 2px solid #dfe2e6;
 }
+.wrap{
+    min-height:calc(100vh - 114px);
+}
+.cd-body{
+    padding-left:1.2em;
+    padding-right:1.2em;
+}
+.cert-program li{
+    margin-left: 20px;
+}
+.cd-banner{
+    background-color: teal;
+    text-align: center;
+    padding-top:1em;
+    padding-bottom:1em;
+
+}
+.cd-banner h3{
+    margin:0;
+    color:#fff !important;
+}
 
 /* =================================
   Media Queries
@@ -148,6 +174,12 @@ img {
 @media (min-width: 769px) {
     body{
         padding-top: 68px;
+    }
+
+    .cd-body{
+        width:80%;
+        margin:0 auto;
+        padding-top:3.5em;
     }
 
     .main-header{
@@ -161,6 +193,7 @@ img {
     .container {
         width: 90%;
         margin: 0 auto;
+
     }
 
     .name,
@@ -199,6 +232,8 @@ img {
 }
 
 @media (min-width: 1025px) {
+
+
 
     .container {
         width: 80%;
