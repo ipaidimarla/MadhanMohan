@@ -38,9 +38,6 @@
 
         }
 
-
-
-
     }]);
 
     app.directive('contactInfo', function(){

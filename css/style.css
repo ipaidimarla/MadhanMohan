@@ -32,7 +32,7 @@ a {
     text-decoration: none;
 }
 
-.active li{ color: lightsteelblue; }
+.active-tab{ color: lightsteelblue; !important; }
 
 img {
     max-width: 100%;
@@ -181,9 +181,13 @@ img {
 .social h3{
     margin:0;
 }
-
+.exp-summary{
+    padding-left:2em;
+    padding-right: 2em;
+}
 .exp-summary li{
     list-style: square;
+
 
 }
 
