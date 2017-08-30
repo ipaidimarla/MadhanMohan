@@ -175,13 +175,14 @@ img {
 
     float:right;
     font-size: 15px;
-
-
-
-
 }
 .social h3{
     margin:0;
+}
+
+.exp-summary li{
+    list-style: square;
+
 }
 
 
