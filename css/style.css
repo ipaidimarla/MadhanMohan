@@ -239,6 +239,7 @@ img {
     .cd-body-email{
         width:60%;
         margin:0 auto;
+        max-width:100%;
         padding-top:3.5em;
 
     }
