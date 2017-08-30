@@ -32,6 +32,8 @@ a {
     text-decoration: none;
 }
 
+.active li{ color: lightsteelblue; }
+
 img {
     max-width: 100%;
 }

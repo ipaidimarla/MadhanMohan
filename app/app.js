@@ -12,37 +12,33 @@
         $scope.bshowContact = false;
         $scope.bshowEducation = false;
         $scope.bshowExperience = false;
-        $scope.bshowSkills = false;
+
 
 
         $scope.showEducation = function()
         {
             $scope.bshowEducation = true;
-            $scope.bshowHome =  $scope.bshowContact = $scope.bshowExperience = $scope.bshowSkills = false;
+            $scope.bshowHome =  $scope.bshowContact = $scope.bshowExperience  = false;
 
         }
 
         $scope.showContact = function(){
             $scope.bshowContact = true;
-            $scope.bshowHome =  $scope.bshowExperience = $scope.bshowEducation = $scope.bshowSkills = false;
+            $scope.bshowHome =  $scope.bshowExperience = $scope.bshowEducation  = false;
         }
 
         $scope.showExperience = function(){
             $scope.bshowExperience = true;
-            $scope.bshowHome =  $scope.bshowContact = $scope.bshowEducation = $scope.bshowSkills = false;
+            $scope.bshowHome =  $scope.bshowContact = $scope.bshowEducation  = false;
 
         }
         $scope.showHome = function(){
             $scope.bshowHome = true;
-            $scope.bshowEducation =  $scope.bshowContact = $scope.bshowExperience = $scope.bshowSkills = false;
+            $scope.bshowEducation =  $scope.bshowContact = $scope.bshowExperience  = false;
 
         }
 
-        $scope.showSkills = function(){
-            $scope.bshowSkills = true;
-            $scope.bshowEducation =  $scope.bshowContact = $scope.bshowExperience = $scope.bshowHome = false;
 
-        }
 
 
     }]);
@@ -68,11 +64,6 @@
 
     });
 
-    app.directive('skillsInfo', function(){
-        return{
-            templateUrl :'./partials/skills.html'
-        }
 
-    });
 
 })();
