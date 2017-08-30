@@ -220,7 +220,10 @@ img {
     background: #007bb5;
     color: white;
 }
-
+.cd-body-email{
+    padding-left:2em;
+    padding-right:2em;
+}
 
 
 /* =================================
@@ -238,7 +241,7 @@ img {
         padding-top:3.5em;
     }
     .cd-body-email{
-        width:60%;
+        width:40%;
         margin:0 auto;
         max-width:100%;
         padding-top:3.5em;
