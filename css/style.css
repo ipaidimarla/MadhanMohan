@@ -32,7 +32,7 @@ a {
     text-decoration: none;
 }
 
-.active-tab{ color: lightsteelblue; !important; }
+
 
 img {
     max-width: 100%;
@@ -233,6 +233,11 @@ img {
     margin-top:2.5em;
 }
 
+.active-tab a{
+    color: #A3B2A0; !important;
+    cursor: default;
+}
+
 
 /* =================================
   Media Queries
@@ -289,6 +294,7 @@ img {
         display: inline-block;
         margin-left: 15px;
     }
+
 
     .tagline {
         font-size: 1.1em;

@@ -62,5 +62,17 @@
     });
 
 
+    /*  JQuery code */
+
+    $("#navs li").click(function(event){
+
+        event.preventDefault();
+        $class = $(this).addClass("active-tab")
+
+        $('.active-tab').not($class).removeClass('active-tab');
+
+    })
+
+
 
 })();

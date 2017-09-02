@@ -11,9 +11,8 @@
     <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <!--scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-    <script src="app/app.js"></script>
+
+
 
 </head>
 <body ng-app="app" ng-controller="mainAppCtrl">
@@ -25,7 +24,7 @@
 
         <img class="head-image" src="img/MadhanMohan.jpg" alt="Head Image">  Madhan Mohan
     </h1>
-    <ul class="main-nav">
+    <ul class="main-nav" id="navs">
         <li class="active-tab"><a href="" ng-click="showHome()" >Home</a></li>
         <li><a href="" ng-click="showExperience()"> Experience</a></li>
         <li><a href="" ng-click="showEducation()">Education</a></li>
@@ -94,5 +93,9 @@
     <div class="info">&#9432 This page is written in <strong>Angular</strong>.</div>
 </footer>
 
+<!--scripts-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="app/app.js"></script>
 </body>
 </html>
