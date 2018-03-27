@@ -1,5 +1,3 @@
-/**
- * Created by Happy on 04/09/17.
- */
+
 (function(){var b=angular.module("app",[]);b.controller("mainAppCtrl",["$scope",function(a){a.bshowHome=!0;a.bshowContact=!1;a.bshowEducation=!1;a.bshowExperience=!1;a.showEducation=function(){a.bshowEducation=!0;a.bshowHome=a.bshowContact=a.bshowExperience=!1};a.showContact=function(){a.bshowContact=!0;a.bshowHome=a.bshowExperience=a.bshowEducation=!1};a.showExperience=function(){a.bshowExperience=!0;a.bshowHome=a.bshowContact=a.bshowEducation=!1};a.showHome=function(){a.bshowHome=!0;a.bshowEducation=
     a.bshowContact=a.bshowExperience=!1}}]);b.directive("contactInfo",function(){return{templateUrl:"./partials/contact.html"}});b.directive("educationInfo",function(){return{templateUrl:"./partials/education.html"}});b.directive("experienceInfo",function(){return{templateUrl:"./partials/experience.html"}});$("#navs li").click(function(a){a.preventDefault();$class=$(this).addClass("active-tab");$(".active-tab").not($class).removeClass("active-tab")})})();
