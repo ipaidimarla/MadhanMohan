@@ -28,13 +28,15 @@
     </div>
 </header><!--/.main-header-->
 
-<div class="banner">
+<div class="banner" ng-if="bshowHome">
     <img class="logo" src="img/MadhanMohan.jpg" alt="Author Image">
 
     <h1 class="headline">Full Stack Developer</h1>
     <span class="tagline">Hands on experience in Microsoft .Net &amp; Web development technologies.</span>
 </div><!--/.banner-->
 <div class="container clearfix">
+
+    <div ng-if="bshowHome">
 <div class="secondary col">
     <h3>Welcome!</h3>
     <p>Thank you for visiting my page.</p>
@@ -69,6 +71,14 @@
 </div><!--/.tertiary-->
 
 </div>
+<!-- <ng-view></ng-view> -->
+<contact-info ng-if="bshowContact"></contact-info>
+<education-info ng-if="bshowEducation"></education-info>
+<skills-info ng-if="bshowSkills"></skills-info>
+<experience-info ng-if="bshowExperience"></experience-info>
+
+</div>
+
 
 
 <footer class="main-footer">
