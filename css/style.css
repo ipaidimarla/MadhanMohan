@@ -121,7 +121,7 @@ img {
     background: #d9e4ea;
     padding: 2em 0;
     
-    position: fixed;
+    position: absolute;
     left: 0;
         bottom: 0;
         
@@ -152,6 +152,7 @@ img {
 .feat-img{
     padding:10px;
     border: 2px solid #dfe2e6;
+    height:280px;
 }
 .wrap{
     min-height:calc(100vh - 114px);
@@ -303,7 +304,7 @@ padding-left: 2em;
     .primary,
     .secondary {
         width: 50%;
-        margin-bottom: 6rem;;
+        margin-bottom: 10rem;;
     }
 
     .main-nav {
