@@ -40,9 +40,10 @@
             templateUrl: "./partials/experience.html"
         }
     });
-    $("#navs li").click(function(a) {
-        $scope.preventDefault();
-        $class = $(this).addClass("active-tab");
-        $(".active-tab").not($class).removeClass("active-tab")
-    })
+    $(".main-nav li").click(function (a) {
+      $scope.preventDefault();
+
+      $(".active-tab").not($class).removeClass("active-tab");
+      $class = $(this).addClass("active-tab");
+    });
 })();
